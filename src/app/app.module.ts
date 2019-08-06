@@ -22,15 +22,3 @@ export const ROUTES: Routes = [];
   bootstrap: [AppComponent]
 })
 export class AppModule {}
-
-/**
- var firebaseConfig = {
-    apiKey: "AIzaSyB1N-lRGfHE9wqDnI11XUPYlFzKYdeKIJQ",
-    authDomain: "fit-app-b1468.firebaseapp.com",
-    databaseURL: "https://fit-app-b1468.firebaseio.com",
-    projectId: "fit-app-b1468",
-    storageBucket: "fit-app-b1468.appspot.com",
-    messagingSenderId: "718091504869",
-    appId: "1:718091504869:web:d29a94e97348e110"
-  };
- */
