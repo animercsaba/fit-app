@@ -1,0 +1,33 @@
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #c1cedb;
+  padding: 15px 0;
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+  &__user-info {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 16px;
+  }
+  span {
+    background: url(/img/logout.svg) no-repeat;
+    background-size: contain;
+    display: block;
+    height: 24px;
+    opacity: 0.4;
+    width: 24px;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+  width: 96%;
+}
