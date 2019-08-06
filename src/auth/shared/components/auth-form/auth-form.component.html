@@ -1,0 +1,37 @@
+<div class="auth-form">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <ng-content select="h1"></ng-content>
+
+    <label for="email">
+      <input
+        type="email"
+        id="email"
+        formControlName="email"
+        placeholder="Email address"
+        autocomplete="off"
+      />
+    </label>
+    <label for="pw">
+      <input
+        type="password"
+        id="pw"
+        formControlName="password"
+        placeholder="Enter password"
+        autocomplete="off"
+      />
+    </label>
+    <div class="error" *ngIf="emailFormat">
+      Invalid email format
+    </div>
+    <div class="error" *ngIf="passwordInvalid">
+      Password is required
+    </div>
+    <ng-content select=".error"></ng-content>
+    <div class="auth-form__action">
+      <ng-content select="button"></ng-content>
+    </div>
+    <div class="auth-form__toggle">
+      <ng-content select="a"></ng-content>
+    </div>
+  </form>
+</div>
