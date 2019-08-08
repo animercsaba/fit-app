@@ -2,7 +2,7 @@
   display: block;
   margin: 50px 0;
 }
-.meals {
+.meal {
   background: #fff;
   border: 1px solid #c1cedb;
   border-radius: 3px;
@@ -26,23 +26,6 @@
     border-bottom: 1px solid #c1cedb;
     display: flex;
     padding: 30px;
-  }
-}
-.btn__add {
-  align-items: center;
-  background: #97c747;
-  border-radius: 50px;
-  color: #fff;
-  display: flex;
-  padding: 6px 20px 6px 15px;
-  text-transform: uppercase;
-  font: {
-    size: 13px;
-    weight: 600;
-  }
-  img {
-    margin: 0 6px 0 0;
-    width: 20px;
   }
 }
 .message {
