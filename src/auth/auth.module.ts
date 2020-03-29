@@ -25,11 +25,11 @@ export const ROUTES: Routes = [
 ];
 
 export const firebaseConfig: FirebaseAppConfig = {
-  apiKey: "AIzaSyB1N-lRGfHE9wqDnI11XUPYlFzKYdeKIJQ",
-  authDomain: "fit-app-b1468.firebaseapp.com",
-  databaseURL: "https://fit-app-b1468.firebaseio.com",
-  projectId: "fit-app-b1468",
-  storageBucket: "fit-app-b1468.appspot.com",
+  apiKey: "AIzaSyDw5Sga9-DVNb2msxUUhU9ognuOs2wlRQo",
+  authDomain: "fit-app-a4112.firebaseapp.com",
+  databaseURL: "https://fit-app-a4112.firebaseio.com",
+  projectId: "fit-app-a4112",
+  storageBucket: "fit-app-a4112.appspot.com",
   messagingSenderId: "718091504869"
 };
 
